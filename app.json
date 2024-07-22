@@ -7,7 +7,7 @@
     "repository": "https://github.com/PigariStudio/NoteKeeper/",
     "main_file": "app/notekeeper_tkinter.py",
     "files": [
-        "app/notekeeper_tkinter.py",
+        "app/note_keeper.py",
         "app/notes.json"
     ],
     "language": "python",
