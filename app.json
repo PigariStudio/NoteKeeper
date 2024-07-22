@@ -1,0 +1,23 @@
+{
+    "name": "NoteKeeper",
+    "description": "A versatile note-taking application for PigarOS.",
+    "version": "1.0",
+    "author": "Pigari Studio",
+    "license": "PigarOS Originals License",
+    "repository": "https://github.com/PigariStudio/NoteKeeper/",
+    "main_file": "app/notekeeper_tkinter.py",
+    "files": [
+        "app/notekeeper_tkinter.py",
+        "app/notes.json"
+    ],
+    "language": "python",
+    "other_actions": [
+        "add_note",
+        "view_note",
+        "edit_note",
+        "delete_note"
+    ],
+    "others": {
+        "dependencies": ["tkinter"]
+    }
+}
